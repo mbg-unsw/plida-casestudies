@@ -1,10 +1,11 @@
-# ACI Data Collab CoP - Pandemic-related disruptions in health services and data. Tracing causes and effects.
-Health data from March 2020 onwards bear the traces of the COVID-19 pandemic. What happened and how should we deal with it in our studies?
+# PLIDA case studies
+ABS PLIDA provides access to a lot of amazing linked Commonwealth data using the DataLab
+Trusted Research Environment (TRE). But what's it like to work with?
 
-A 20-minute talk covering antibiotics, antidepressants, population estimates and epidemiological methods.
+An 8-minute talk covering datasets, research topics, key lessons and insights for new starters.
 
-Delivered to the Agency for Clinical Innovation Data Collab Community of Practice
-meeting on 27 April 2023.
+Delivered to the UNSW Medicine & Health Health Systems Research Theme Workshop: Real-World Data
+to Real-World Impact meeting on 20 May 2026.
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
