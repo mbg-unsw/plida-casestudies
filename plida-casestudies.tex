@@ -120,74 +120,89 @@ to work with?
 \end{columns}
 \end{frame}
 
-\begin{frame}{Datasets accessed in PLIDA}
+\begin{frame}{Good stuff\dots}
 \begin{itemize}
-	\item PBS
-	\item Census
-	\item Core demographics
-	\item Core location
-	\item PLIDA spine
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Good stuff}
-\begin{itemize}
-	\item Notification process fewer hassles
-	\item Modern environment, regular software updates, good VM spec
 	\item Fresh data
+	\item Straightforward process for publication
+	\item Modern environment, regular software updates, good VM spec
 	\item Good docs and transparent processes
 	\item Responsive staff
 	\item Harmonised data in core demographics
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Research questions or topics explored}
+\begin{frame}{Datasets I've use in PLIDA}
 \begin{itemize}
-	\item 60-day prescribing
-	\item ADHD medicine utilisation and variation
-	\item ADHD - CVD medicine drug-drug interaction (TIMESPAN)
+	\item Pharmaceutical Benefits Scheme (PBS)
+	\item Census 2021
+	\item Core demographics
+	\item Core location
+	\item PLIDA spine
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research topics so far\dots}
+\begin{itemize}
+	\item 60-day prescribing on the PBS
+	\item ADHD--CVD medicine drug--drug interaction
+	\item ADHD medicine geographic variation
 \end{itemize}
 \end{frame}
 
 {
-\usebackgroundtemplate{}
-\setbeamercolor{background canvas}{fg=black}
+\usebackgroundtemplate{
+\begin{tikzpicture}[remember picture,overlay]
+    \fill[black]([shift={(0cm,0cm)}]current page.north west)
+	rectangle
+   ([shift={(0cm,0cm)}]current page.south east);
+\end{tikzpicture}%
+}
+\setbeamercolor{background canvas}{bg=black}
   \begin{frame}[plain]
-	%\includegraphics[height=\paperheight]{ref/4corners-grab-20260513.png}
+	\includegraphics[height=\paperheight]{ref/4corners-grab-20260513.png}
   \end{frame}
 }
 
 \begin{frame}{}
 \calculatespace%
 \begin{columns}
-\begin{column}{0.5\contentwidth}
+\begin{column}{0.40\contentwidth}
   \includegraphics[width=\textwidth]{ref/map_prev_syd.png}
 \end{column}
-\begin{column}{0.50\contentwidth}
-XXXX
+\begin{column}{0.45\contentwidth}
+	\begin{itemize}
+	    \item Annual prevalence of ADHD medicine dispensing for 2023--24
+	    \item Age standardised population rate per SA3
+	    \item Exported from DataLab in tabular form
+	    \item Visualisation using \texttt{\{tmap\}}
+	\end{itemize}
 \end{column}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Key lessons}
+\begin{frame}{Some things I learned}
 \begin{itemize}
-	\item Bigger data, slower analyses
-	\item New tools help: DuckDB
+	\item Bigger data, slower analyses (new tools help)
 	\item Nightly automatic shutdown: don't forget
 	\item Quarterly updates: how to manage?
 	\item SYNTHETIC\_AEUID ain't SYNTHETIC\_AEUID
-	\item Docs are great but not always complete or up-to-date
+	\item Docs are great but sometimes outdated
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Reflections/insights for newbies}
+\begin{frame}{Tips for new starters}
 \begin{itemize}
-	\item DuckDB needs temporary space, request a 1TB X: drive (it's free)
-	\item Understand data size and its impact on speed
-	\item Generate smaller test data sets for developing and testing your code
-	\item Develop reproducible data flow with logs you can show ABS
-	\item Census data is cool but has its own quirks (90% linkage, self report, 2021 only, coding)
-	\item We all have a lot to learn, share the knowledge!
+	\item Request a 1TB X: drive (it's free)
+	\item Get to know the size of the data
+	\item Create sample data for testing your code
+	\item Do reproducible analyses you can show ABS
+	\item Explore Census data quirks
+\end{itemize}
+\end{frame}
+
+\begin{frame}{}
+\begin{itemize}
+	\item[] We all have a lot to learn, so share the knowledge
 \end{itemize}
 \end{frame}
 
